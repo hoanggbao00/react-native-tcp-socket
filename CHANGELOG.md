@@ -1,3 +1,12 @@
+## [6.4.2](https://github.com/Rapsssito/react-native-tcp-socket/compare/v6.4.1...v6.4.2) (2026-07-26)
+
+
+### Bug Fixes
+
+* **iOS:** emit error when onConnect hosts are nil ([#235](https://github.com/Rapsssito/react-native-tcp-socket/issues/235)) ([3d99c5f](https://github.com/Rapsssito/react-native-tcp-socket/commit/3d99c5f25f814f555895d2ccd56ef157606d74af))
+* pass through all listen options to native, including tls ([#236](https://github.com/Rapsssito/react-native-tcp-socket/issues/236)) ([55bf524](https://github.com/Rapsssito/react-native-tcp-socket/commit/55bf5242426314d31daba0e233ea4d62d4a68ee2))
+* prevent NullPointerException in write() on Android due to TOCTOU race condition with destroy() ([#233](https://github.com/Rapsssito/react-native-tcp-socket/issues/233)) ([#234](https://github.com/Rapsssito/react-native-tcp-socket/issues/234)) ([f85d07d](https://github.com/Rapsssito/react-native-tcp-socket/commit/f85d07df59a744443fd0a6deff76c6231b047b79))
+
 ## [6.4.1](https://github.com/Rapsssito/react-native-tcp-socket/compare/v6.4.0...v6.4.1) (2026-01-16)
 
 
