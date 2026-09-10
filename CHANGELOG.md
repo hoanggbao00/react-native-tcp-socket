@@ -1,3 +1,10 @@
+## [6.4.3](https://github.com/Rapsssito/react-native-tcp-socket/compare/v6.4.2...v6.4.3) (2026-09-10)
+
+
+### Bug Fixes
+
+* **iOS:** defer startTLS until didConnectToHost ([#217](https://github.com/Rapsssito/react-native-tcp-socket/issues/217)) ([ef5a63f](https://github.com/Rapsssito/react-native-tcp-socket/commit/ef5a63f50efa882a0669ee22cb0b64e82960fa6e))
+
 ## [6.4.2](https://github.com/Rapsssito/react-native-tcp-socket/compare/v6.4.1...v6.4.2) (2026-07-26)
 
 
